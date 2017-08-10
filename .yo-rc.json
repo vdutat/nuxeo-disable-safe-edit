@@ -1,0 +1,9 @@
+{
+  "generator-nuxeo": {
+    "lastRemote": "/home/vdutat/.cache/node-yeoman-remote-cache/nuxeo/generator-nuxeo-meta/2.6.1",
+    "promptValues": {
+      "parent_version": "6.0",
+      "package": "org.nuxeo.addons"
+    }
+  }
+}
