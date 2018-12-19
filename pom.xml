@@ -6,11 +6,11 @@
   <parent>
     <groupId>org.nuxeo</groupId>
     <artifactId>nuxeo-addons-parent</artifactId>
-    <version>6.0</version>
+    <version>8.10</version>
   </parent>
   <artifactId>nuxeo-disable-safe-edit</artifactId>
   <groupId>org.nuxeo.addons</groupId>
-  <version>1.0</version>
+  <version>1.2</version>
   <name>Nuxeo disable safe edit</name>
   <description></description>
 

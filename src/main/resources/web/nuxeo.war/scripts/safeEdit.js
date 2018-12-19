@@ -12,5 +12,15 @@
     //console.log('DUMMY initSafeEditOnForm');
   }
 
+  $.fn.checkSafeEditOnForms = function(message) {
+    //console.log('DUMMY checkSafeEditOnForms');
+    return true;
+  }
+
+  $.fn.initSafeEdit = function(key, savePeriod, saveCB, loadCB, message) {
+    //console.log('DUMMY initSafeEdit');
+    return this;
+  }
+
 })(jQuery);
 
