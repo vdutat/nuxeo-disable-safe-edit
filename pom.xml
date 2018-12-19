@@ -1,18 +1,23 @@
 <?xml version="1.0"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns="http://maven.apache.org/POM/4.0.0"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.nuxeo</groupId>
-    <artifactId>nuxeo-addons-parent</artifactId>
+    <groupId>org.nuxeo.ecm.distribution</groupId>
+    <artifactId>nuxeo-distribution</artifactId>
     <version>8.10</version>
   </parent>
-  <artifactId>nuxeo-disable-safe-edit</artifactId>
-  <groupId>org.nuxeo.addons</groupId>
+
+  <groupId>org.nuxeo</groupId>
+  <artifactId>nuxeo-disable-safe-edit-parent</artifactId>
   <version>1.2</version>
-  <name>Nuxeo disable safe edit</name>
-  <description></description>
+  <name>Nuxeo disable safe edit parent</name>
+  <description />
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>nuxeo-disable-safe-edit-jsf</module>
+    <module>nuxeo-disable-safe-edit-package</module>
+  </modules>
 
   <repositories>
     <repository>
@@ -62,4 +67,18 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.nuxeo</groupId>
+        <artifactId>nuxeo-disable-safe-edit-jsf</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.nuxeo</groupId>
+        <artifactId>nuxeo-disable-safe-edit-package</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>

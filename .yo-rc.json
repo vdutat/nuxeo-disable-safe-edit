@@ -1,9 +1,14 @@
 {
   "generator-nuxeo": {
-    "lastRemote": "/home/vdutat/.cache/node-yeoman-remote-cache/nuxeo/generator-nuxeo-meta/2.6.1",
+    "lastRemote": "/home/vdutat/.cache/node-yeoman-remote-cache/nuxeo/generator-nuxeo-meta/2.9.0",
     "promptValues": {
-      "parent_version": "6.0",
-      "package": "org.nuxeo.addons"
-    }
+      "super_version": "8.10",
+      "parent_package": "org.nuxeo",
+      "parent_artifact": "nuxeo-disable-safe-edit-parent",
+      "parent_version": "1.2-SNAPSHOT",
+      "package": "org.nuxeo"
+    },
+    "_nuxeo_version": "8.10",
+    "multi": true
   }
 }

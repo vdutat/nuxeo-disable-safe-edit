@@ -1,8 +1,0 @@
-Bundle-ActivationPolicy: lazy
-Bundle-ClassPath: .
-Manifest-Version: 1.0
-Bundle-Vendor: org.nuxeo.addons
-Bundle-Version: 1.0.0
-Bundle-Name: nuxeo-disable-safe-edit
-Bundle-ManifestVersion: 2
-Bundle-SymbolicName: org.nuxeo.addons.nuxeo-disable-safe-edit;singleton=true
